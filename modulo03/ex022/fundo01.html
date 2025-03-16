@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste de imagem de fundo</title>
+    <style>
+
+        body{
+            background-image: url(imagens/pattern003.png);
+        }
+
+        div.quadrado {
+            border: 1px solid black;
+            width: 300px;
+            height: 300px;
+            display: inline-block;
+            border-radius: 10px;
+            background-color: antiquewhite;
+        }
+
+        div#q1{
+            background-image: linear-gradient(45deg, red, yellow);
+            transition-duration: 5ms;
+        }
+
+        div#q1:hover{
+            background-image: linear-gradient(to bottom, purple, blue);
+        }
+
+        div#q2{
+            background-image: url(imagens/pattern001.png);
+        }
+    </style>
+</head>
+<body>
+    <div class="quadrado" id="q1">
+
+    </div>
+    <a href="fundo02.html">
+        <div class="quadrado" id="q2">
+        </div>
+    </a>
+    <div class="quadrado" id="q3">
+
+    </div>
+</body>
+</html>
