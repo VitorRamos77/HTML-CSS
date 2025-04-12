@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    width: 99vw;
+}
+
+header > h2{
+    font-size: medium;
+}
+
+header > h2 > a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+
+main > section > pre{
+    top: 50%;
+    text-align: justify;
+    font-size: 2em;
+}
+
+main > .branco > pre{
+    font-size: 42px;
+    margin: 10px 10px 10px 10px;
+    padding: 5px;
+    width: 600px;
+}
+
+.joana{
+    background-image: url(imagens/background001.jpg);
+    background-position: center right;
+    background-attachment: fixed;
+    width: 98vw;
+    height: 440px;
+    padding: 10px;
+}
+
+section.joana > pre{
+    font-size: 42px;
+    color: white;
+    margin: 10px 10px 10px 10px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.379);
+    width: 600px;
+}
+
+.carta{
+    background-image: url(imagens/background002.jpg);
+    background-position: center right;
+    background-attachment: fixed;
+    width: 98vw;
+    height: 440px;
+    padding: 10px;
+}
+
+section.carta > pre{
+    font-size: 42px;
+    color: white;
+    margin: 10px 10px 10px 10px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.379);
+    width: 600px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer > p > a{
+    color: white;
+    text-decoration: none;
+}
