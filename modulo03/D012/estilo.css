@@ -1,11 +1,17 @@
 @charset "UTF-8";
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 header{
     background-color: black;
     color: white;
     text-align: center;
-    padding: 2px;
+    padding: 50px 2px;
     width: 99vw;
+    font-variant: small-caps;
 }
 
 header > h2{
@@ -36,7 +42,7 @@ main > .branco > pre{
     background-image: url(imagens/background001.jpg);
     background-position: center right;
     background-attachment: fixed;
-    width: 98vw;
+    width: 98.15vw;
     height: 440px;
     padding: 10px;
 }
@@ -54,7 +60,7 @@ section.joana > pre{
     background-image: url(imagens/background002.jpg);
     background-position: center right;
     background-attachment: fixed;
-    width: 98vw;
+    width: 98.15vw;
     height: 440px;
     padding: 10px;
 }
@@ -77,4 +83,8 @@ footer{
 footer > p > a{
     color: white;
     text-decoration: none;
+}
+
+header > h2 > a:hover, footer > p > a:hover{
+    text-decoration: underline;
 }
